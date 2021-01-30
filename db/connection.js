@@ -5,7 +5,7 @@ var connection =mysql.createConnection({
     host:"localhost",
     port: 3306,
     user:"root",
-    password:"",
+    password:"password",
     database:"employee_trackerdb"
 });
 
@@ -15,6 +15,6 @@ connection.connect(function(err){
 });
 
 
-connection.query = util.promisify(connection.query);
+
 
 module.exports=connection;
