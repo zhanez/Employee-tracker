@@ -4,12 +4,12 @@ INSERT into department (name)
 values("sales"),
       ("engineering"),
       ("finance"),
-      ("legal");
+      ("legal");    
 
-INSERT into role(title, salary, department_id)
+INSERT into role (title, salary, department_id)
 values("Sales Lead", 100000.00, 1 ),
 	("Salesperson", 80000.00, 1),
-    ("Lead Engineer", 1500000.00, 2),
+    ("Lead Enginaser", 1500000.00, 2),
     ("Software Engineer", 1200000.00, 2),
     ("Accountant", 12500000.00,3),
     ("Legal Team Lead", 2500000.00, 3),
